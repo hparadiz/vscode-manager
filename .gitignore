@@ -1,0 +1,6 @@
+# Downloaded VS Code distributions and archives.
+/code-stable-*/
+/code-stable-*.tar.gz
+
+# Local installation selected by update-code.sh.
+/current

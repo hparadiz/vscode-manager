@@ -1,0 +1,32 @@
+[Desktop Entry]
+Actions=Diff;Open-Reuse-Window;
+Categories=Development;IDE;WebDevelopment;TextEditor;
+Comment[en_US]=
+Comment=
+Exec=/usr/bin/code %F
+GenericName[en_US]=IDE
+GenericName=IDE
+Icon=/home/akujin/Pictures/Icons/Visual_Studio_Code_1.35_icon
+Keywords=code;ide;visual studio;vscode;vs;visual;studio
+MimeType=text/x-csharp;text/sgml;text/plain;text/markdown;text/html;text/csv;text/css;application/xml-external-parsed-entity;application/xml-dtd;application/xml;application/xml;application/sql;application/json;application/javascript;application/javascript;application/ecmascript;
+Name[en_US]=Visual Studio Code
+Name=Visual Studio Code
+Path=
+StartupNotify=true
+StartupWMClass=Code
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.1
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+
+[Desktop Action Diff]
+Exec=/usr/bin/code --diff %F
+Name=Diff Two Files
+
+[Desktop Action Open-Reuse-Window]
+Exec=/usr/bin/code --reuse-window %F
+Name=Open in Existing Window
